@@ -1,0 +1,6 @@
+
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/mfrx45i6otvs/public_html/auto-test
+    - /bin/cp index.html $DEPLOYPATH
